@@ -1,0 +1,50 @@
+:root {
+  --001-button: #6c63ff;
+  --002-background: #f5f2fe;
+  --003-text: #fff;
+  --opacity: 0.7;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+
+h1 {
+  font-size: 96px;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+h3 {
+  font-size: 24px;
+  opacity: var(--opacity);
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.nav-links a {
+  margin: 20px;
+  text-decoration: none;
+  padding: 20px;
+  border: 1px solid var(--001-button);
+  border-radius: 4px;
+  box-shadow: var(--box-shadow);
+}
+
+.contact-me {
+  background: var(--001-button);
+  color: var(--003-text);
+}
+
+.about-me {
+  color: var(--001-button);
+}
