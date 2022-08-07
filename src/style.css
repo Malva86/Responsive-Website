@@ -6,10 +6,16 @@
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
+body {
+  margin: 60px auto;
+  max-width: 800px;
+}
+
 h1,
 h2,
 h3 {
   text-align: center;
+  margin: 0 auto;
 }
 
 h1 {
@@ -47,4 +53,37 @@ h3 {
 
 .about-me {
   color: var(--001-button);
+}
+
+.back-link {
+  text-align: center;
+  display: block;
+  color: var(--001-button);
+  text-decoration: none;
+}
+
+#contact-me {
+  display: flex;
+  justify-content: center;
+  color: var(--001-button);
+  text-decoration: none;
+  font-size: 28px;
+}
+
+.description-about-me {
+  display: flex;
+  margin: 30px 0;
+}
+
+.description-about-me p {
+  margin: 10px;
+}
+
+p {
+  background: var(--002-background);
+  padding: 20px;
+  border-radius: 4px;
+  line-height: 1.5;
+  font-size: 18px;
+  text-align: center;
 }
