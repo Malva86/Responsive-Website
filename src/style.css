@@ -8,7 +8,6 @@
 
 body {
   margin: 60px auto;
-  max-width: 800px;
 }
 
 h1,
@@ -80,10 +79,19 @@ h3 {
 }
 
 p {
-  background: var(--002-background);
   padding: 20px;
   border-radius: 4px;
   line-height: 1.5;
   font-size: 18px;
   text-align: center;
+}
+
+.button-link {
+  background: var(--001-button);
+  padding: 20px;
+  text-decoration: none;
+  border: 1px solid var(--001-button);
+  border-radius: 4px;
+  box-shadow: var(--box-shadow);
+  color: var(--003-text);
 }
