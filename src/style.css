@@ -95,3 +95,26 @@ p {
   box-shadow: var(--box-shadow);
   color: var(--003-text);
 }
+
+.desc,
+.title-app {
+  display: block;
+  text-align: left;
+}
+
+@media (max-width: 768px) {
+  .desc,
+  .title-app {
+    text-align: center;
+  }
+
+  .title-app {
+    font-size: 34px;
+  }
+
+  .button-link {
+    display: block;
+    text-align: center;
+    margin: 0 20px;
+  }
+}
